@@ -1,0 +1,8 @@
+{
+    "name" : "devcontainer",
+      //build "image": "unbuntu18.04"
+    "build": {
+          "dockerfile" : "Dockerfile"
+      }
+  
+  }
