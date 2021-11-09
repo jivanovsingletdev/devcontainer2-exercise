@@ -1,6 +1,6 @@
 {
     "name" : "devcontainer",
-      //build "image": "unbuntu18.04"
+      //build "image": "centos:7"
     "build": {
           "dockerfile" : "Dockerfile"
       }
