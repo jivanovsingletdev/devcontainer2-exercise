@@ -1,6 +1,6 @@
 {
     "name" : "devcontainer",
-      //build "image": "centos:7"
+      //build "image": "centos:latest"
     "build": {
           "dockerfile" : "Dockerfile"
       }
