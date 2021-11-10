@@ -8,5 +8,6 @@ RUN yum -y install httpd; yum clean all; systemctl enable httpd.service; \
         systemctl start httpd.service; \
         systemctl enable httpd.service; \
         install php; \
-        systemctl restart httpd.service; \
+        systemctl restart httpd.service;
 EXPOSE 80
+
